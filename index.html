@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment-26</title>
+    <style>
+       
+
+         body{
+            background-color: #A9C9FF;
+            background-image: linear-gradient(180deg, #A9C9FF 0%, #FFBBEC 100%);
+            height: 100vh;
+
+         }
+         @media (max-width:500px){
+            body{
+                height: 500px;
+            }
+         }
+            
+         
+
+     .container{
+
+        background-color: #fff;
+        height: 500px;
+        width: 900px;
+        margin: 0 auto;
+        border-radius: 10px;
+        margin-top: 50px;
+        padding: 10px 40px;
+    
+     }
+
+     .btn{
+        font-size: 20px;
+        border-radius: 10px;
+        padding: 10px 20px;
+        margin: 50px 20px;
+       
+     }
+.btn-c{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+@media (max-width: 1000px)
+{
+    container{
+        height: 300px;
+        width: 500;
+        margin: 50px;
+    }
+    img{
+        height: 350px;
+    }
+
+}
+
+
+
+
+    
+
+
+    
+    </style>
+    
+
+</head>
+<body>
+         
+    <div class="container">
+        
+        <h1 style="text-align: center;">
+            Shop Your Cloth Now...!
+         </h1>
+         
+         <img src="shambhu-1.jpg" height="400px" id="find"  style="margin-left:360px; border-radius: 10px;" >
+         
+    </div>
+
+  <div class="btn-c" >
+    <button class="btn" onclick=" fun3()">T-shirts</button>
+    <button class="btn" onclick=" fun4()">checks</button>
+    <button class="btn" onclick=" fun2()">Lining</button>
+    <button class="btn" onclick=" fun1()">kurta</button>
+    
+
+  </div>
+
+<script>
+    function fun1(){
+       const a = document.getElementById('find');
+       a.src='shambhu-1.jpg';
+
+
+
+    }
+    function fun2(){
+       const a = document.getElementById('find');
+      a.src='shambhu-2.jpg';
+
+
+
+    }
+    function fun3(){
+       const a = document.getElementById('find');
+      a.src='shambhu-3.jpg';
+
+
+
+    }
+    function fun4(){
+       const a = document.getElementById('find');
+      a.src='shambhu-4.jpg';
+
+
+
+    }
+
+
+
+
+
+
+</script>
+
+
+
+    
+</body>
+</html>
